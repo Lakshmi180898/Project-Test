@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* background-color: #bcd4e6; */
+  display: flex;
+  padding-left: 260px;
+  margin-top: -50px;
+  flex-wrap: auto;
+}
+.cardContainer {
+  padding: 5;
+  width: 50;
+  height: 50;
+  border-radius: 8;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  position: "absolute";
+  margin-left: 20;
+  margin-top: -10;
+}
+.cardTitle {
+  display: "flex";
+  justify-content: "flex-end";
+}
+.cardTitleText {
+  font-size: 25;
+  color: "#50C878";
+}
+.cardBody {
+  display: "flex";
+  justify-content: "space-between";
+  margin-top: -30;
+}
